@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    outline:none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2967c5;
+    font-family: 'Roboto', sans-serif;
+}
+.not-found img{
+    width:80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.container{
+    background: #fff;
+    position: relative;
+    height:600px;
+    width: 400px;
+    transition: 0.6s ease-out;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family:'Roboto', sans-serif;
+    padding:30px 30px;
+}
+.search-box button{
+    width:50px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 50%;
+    color:#2967c5;
+    background: #fff;
+    border:none;
+}
+.search-box button:hover{
+    background:#2967c5;
+    color:#fff;
+}
+.search-box i{
+    color:#2967c5;
+    font-size:24px;
+    
+}
+.search-box{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
+}
+.search-box input{
+   color:#2967c5;
+   border: none;
+   width:80%;
+   font-weight: 500;
+   font-size:24px;
+   text-transform: uppercase;
+   padding-left:32px;
+}
+.search-box input::placeholder{
+    color:#2967c5;
+    text-transform: capitalize; 
+    font-weight: 500;
+    font-size:20px;
+}
+.not-found{
+    color: #2967c5;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
