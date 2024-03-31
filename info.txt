@@ -1,0 +1,2 @@
+API URL=`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`
+APIKey='a6eac73a36aa9018ad4d57270710f1fa'
